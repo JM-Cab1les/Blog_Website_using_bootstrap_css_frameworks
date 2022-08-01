@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+       </div>
+
+       <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background.png" class="d-block w-100">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="display-2">Bootstrap</h1>
+                    <h3>Complete Layout</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/background-2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/background3.png" class="d-block w-100">
+            </div>
+       </div>
+    </div>
+ <!--Jumbotron-->
+<div class="container-fluid mt-3 bg-light p-3">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">A web hosting service allows individuals and organization to make their website accesible via the World Wide Web</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button type="button" class="btn btn-outline-secondary">Web Hosting</button></a>
+        </div>
+    </div>
+</div>
+
+<!--Welcome Section-->
+<div class="container-fluid padding mt-3">
+    <div class="row welcome text-center">
+        <div class="col-12 mb-3">
+            <h1 class="display-4">Build With Ease</h1>
+        </div>
+        <hr>        
+        <div class="col-12 mt-3">
+            <p class="lead">Welcome to my website using bootstrap css framework is a free and open-source front end library with HTML and CSS based design</p>
+        </div>
+    </div>
+</div>
+
+<!--three column section-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML 5</h3>
+                <p>Built With the latest version of HTML, HTML5</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>Bootstrap</h3>
+                <p>Built With the latest version of HTML, HTML5</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa-brands fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Built With the latest version of CSS, CSS3</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!--two column section-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>If you build it...</h2>
+                <p>the column will automatically stack on top of each other when the screen is less than 576px wide</p>
+                <p>resize the browser window to see the effect. responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic</p>
+                <p>it can also display the webpage differently depending on the screen size</p>
+                <br>
+                <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/desk.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+    <!--Fixed Background-->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+               
+            </div>
+        </div>
+    </figure>
+
+    <!--Emoji section--->
+    <button type="button" class="fun" data-bs-toggle="collapse" data-bs-target="#emoji">Click for fun</button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/panda.gif">
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/poo.gif">
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/chicken.gif">
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/unicorn.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--meet the team-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-lg-12">
+                <h1 class="display-2">Meet the team</h1>
+            </div>
+        </div>
+    </div>
+    <!--cards-->
+    <div class="container-fluid padding">
+        <div class="row welcome padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team1.png">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia necessitatibus illo, accusamus ratione fuga?</p>
+                        <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team2.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Mary Jane</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia necessitatibus illo, accusamus ratione fuga?</p>
+                        <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team3.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Phil Joe</h4>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia necessitatibus illo, accusamus ratione fuga?</p>
+                        <a href="#" class="btn btn-outline-secondary">See profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--two column section-->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2>Our Philosophy</h2>
+                    <p>We know that greatness in a discruptive era requires bold ambition, curious talent and a culture that believes we're smarter together</p>
+                    <p>We approach every challenge holistically, with best-in-class expertise in data, creativity, media, technology, search, social and more.
+                    </p>  
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/bootstrap2.png" class="img-fluid">
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+
+        <!--connect-->
+        <div class="container-fluid padding">
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <h2>Connect</h2>
+                    </div>
+                    <div class="col-12 social padding">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer>
+            <div class="container-fluid padding ">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="img/w3newbie.png">
+                        <hr class="light">
+                        <p>555-555-555</p>
+                        <p>email@email.com</p>
+                        <p>100 street name</p>
+                        <p>City, State, 000</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our hours</h5>
+                        <hr class="light">
+                        <p>Monday: 9am - 5pm</p>
+                        <p>Saturday: 10am - 4pm</p>
+                        <p>Sunday: closed</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our hours</h5>
+                        <hr class="light">
+                        <p>City, State, 000</p>
+                        <p>City, State, 000</p>
+                        <p>City, State, 000</p> 
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; Inspired by w3newbie</h5>
+                        <h6>Jhon Marc Cabiles</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
